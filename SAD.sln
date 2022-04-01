@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SAD.api", "SAD.api\SAD.api.csproj", "{01D571E5-52BB-44B1-95C0-7B491272EA96}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SAD.Domain", "SAD.Domain\SAD.Domain.csproj", "{724BC621-4654-444B-B9ED-305AAAE581DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SAD.Test", "SAD.Test\SAD.Test.csproj", "{99CD5A8A-F574-449B-9DDD-495AC86B1F93}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{01D571E5-52BB-44B1-95C0-7B491272EA96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01D571E5-52BB-44B1-95C0-7B491272EA96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01D571E5-52BB-44B1-95C0-7B491272EA96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01D571E5-52BB-44B1-95C0-7B491272EA96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{724BC621-4654-444B-B9ED-305AAAE581DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{724BC621-4654-444B-B9ED-305AAAE581DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{724BC621-4654-444B-B9ED-305AAAE581DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{724BC621-4654-444B-B9ED-305AAAE581DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99CD5A8A-F574-449B-9DDD-495AC86B1F93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99CD5A8A-F574-449B-9DDD-495AC86B1F93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99CD5A8A-F574-449B-9DDD-495AC86B1F93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99CD5A8A-F574-449B-9DDD-495AC86B1F93}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
