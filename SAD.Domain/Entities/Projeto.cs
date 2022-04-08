@@ -8,6 +8,7 @@ namespace SAD.Domain.Entities
 {
     public class Projeto
     {
+        public Projeto() { }
         public Projeto(string nome,double a, double b, double c, double d, double e, double f, double g, double h)
         {
             Nome = nome;

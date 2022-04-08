@@ -163,9 +163,13 @@ namespace SAD.Domain.Entities
             var dmais = GerarDMais(projetoNormalizado);
             return dmenos / (dmais + dmenos);
         }
-        public IList<Projeto> OrdenarProjetosNormalizados()
+        public object OrdenarProjetosNormalizados()
         {
-            return (IList<Projeto>)(from projeto in ProjetosNormalizados orderby GerarDDefinitivo(projeto) select projeto); ;
+            return (from projeto in ProjetosNormalizados orderby GerarDDefinitivo(projeto) descending select projeto).ToList<Projeto>();
+        }
+        public object OrdenarProjetosNormalizadosInvertido()
+        {
+            return (from projeto in ProjetosNormalizados orderby GerarDDefinitivo(projeto) select projeto).ToList<Projeto>();
         }
 
     }
