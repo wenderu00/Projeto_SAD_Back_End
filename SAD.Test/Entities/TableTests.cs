@@ -166,5 +166,7 @@ namespace SAD.Test.Entities
         {
             Assert.AreEqual(_tabela.IdealNegativa.CriterioH, 12.72792206);
         }
+        
+
     }
 }
