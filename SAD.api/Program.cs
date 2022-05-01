@@ -17,9 +17,9 @@ builder.Services.AddCors(options =>
 });
 
 
-builder.services.AddAuthentication(
+/*builder.Services.AddAuthentication(
         CertificateAuthenticationDefaults.AuthenticationScheme)
-        .AddCertificate();
+        .AddCertificate();*/
 
 var app = builder.Build();
 app.UseHttpsRedirection();
